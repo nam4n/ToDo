@@ -1,0 +1,34 @@
+.todo-item {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    /* font-family: 'BhuTuka Expanded One'; */
+}
+
+.todo-item > li {
+    width: 25vh;
+    background-color: bisque;
+    padding: 12px;
+    border-radius: 20px;
+    color: rgb(85, 82, 82);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.delete-btn {
+    margin: 5px 0 0 10px;
+    background-color: white;
+    color: red;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    opacity: 1;
+}
+

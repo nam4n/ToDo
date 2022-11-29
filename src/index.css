@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Nerko+One&display=swap');
+
 body {
+  background-color: #f9d4cd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

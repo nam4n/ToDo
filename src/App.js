@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Form from './components/Form';
+import Header from './components/Header';
 import Todo from './components/Todo';
 
 function App() {
@@ -30,10 +31,8 @@ function App() {
   };
 
   return (
-    <div>
-      <header className="header">
-        <h1>To-do List</h1>
-      </header>
+    <div className='container'>
+      <Header />
       
       <Form input={input} onInputChange={handleInputChange} onFormSubmit={handleFormSubmit} />
 
