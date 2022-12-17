@@ -1,14 +1,10 @@
-.todo-item {
-    margin: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    /* font-family: 'BhuTuka Expanded One'; */
-}
+
 
 .todo-item > li {
+    margin: 4px 0;
     width: 25vh;
     background-color: bisque;
-    padding: 12px;
+    padding: 5px 8px;
     border-radius: 20px;
     color: rgb(85, 82, 82);
     font-size: 16px;

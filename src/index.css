@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Nerko+One&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   background-color: #f9d4cd;
   display: flex;

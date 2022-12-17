@@ -1,13 +1,11 @@
 .header {
-    display: flex;
+    /* display: flex; */
     font-family: 'Nerko One', sans-serif;
-    font-size: larger;
+    /* font-size: larger; */
     color: rgb(85, 82, 82);
 }
 
 .header > img {
     height: 32px;
     width: 32px;
-    margin-top: 35px;
-    margin-right: 6px;
 }
