@@ -9,7 +9,7 @@ function Todo(props) {
 
   return (
     <div className="todo-item my-[8px] flex justify-center ml-12" key={props.index} id={props.id}>
-      <li>{props.item}</li>
+      <li className="hover:bg-[#2c94fb] hover:text-white">{props.item}</li>
       <button className="delete-btn" onClick={onSelect}>X</button>
     </div>
   );

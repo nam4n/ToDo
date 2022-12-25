@@ -30,10 +30,10 @@ function App() {
   };
 
   return (
-    <div className="container overflow-hidden bg-white p-2 rounded-lg flex flex-col w-[350px] h-[80vh] items-center mt-[50px]">
+    <div className="container overflow-hidden bg-white rounded-lg flex flex-col w-[100vw] h-[100vh] sm:w-[350px] sm:h-[80vh] items-center sm:mt-[50px]">
       <Header />
 
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center mt-4 sm:mt-0">
         <Form
           input={input}
           onInputChange={handleInputChange}

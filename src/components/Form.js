@@ -1,5 +1,4 @@
 import React from "react";
-import "./Form.css"
 
 function Form(props) {
   return (
@@ -12,9 +11,9 @@ function Form(props) {
         required
         placeholder="Enter your task "
       />
-      <div className="py-[1px] px-[8px] rounded-full flex items-center justify-center text-md text-white bg-red-300 hover:text-[whitesmoke] hover:bg-red-400">
+      <div className="py-[0.75px] px-[8px] rounded-full flex items-center justify-center text-md text-[#555252] hover:text-white font-bold bg-[#CDF2F9] hover:bg-[#2c94fb]">
       <button
-      className="text-2xl mb-[1px]"
+      className="text-2xl mb-[4px]"
       type="submit">+</button>
       </div>
     </form>

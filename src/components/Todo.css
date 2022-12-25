@@ -3,12 +3,11 @@
 .todo-item > li {
     margin: 4px 0;
     width: 25vh;
-    background-color: bisque;
-    padding: 5px 8px;
+    background-color: #CDF2F9;
+    padding: 6px 9px;
     border-radius: 20px;
     color: rgb(85, 82, 82);
     font-size: 16px;
-    font-weight: 600;
 }
 
 
